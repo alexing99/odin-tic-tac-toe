@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.input-butts {
+  display: flex;
+  margin: 5px;
+  gap: 5px;
+}
+
+#gameboard div {
+  border: black solid;
+}
+
+#gameboard #square-0 {
+  border-top: none;
+  border-left: none;
+}
+
+#gameboard #square-3 {
+  border-left: none;
+}
+
+#gameboard #square-6 {
+  border-bottom: none;
+  border-left: none;
+}
+
+#gameboard #square-1 {
+  border-top: none;
+}
+
+#gameboard #square-2 {
+  border-top: none;
+  border-right: none;
+}
+
+#gameboard #square-5 {
+  border-right: none;
+}
+
+#gameboard #square-7 {
+  border-bottom: none;
+}
+
+#gameboard #square-8 {
+  border-bottom: none;
+  border-right: none;
+}
+
+#message {
+  height: 200px;
+  color: black;
+  font-size: 2em;
+}
+
+#gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  align-content: center;
+}
+
+.square {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 30%;
+  text-align: center;
+  font-size: 80px;
+  max-width: 400px;
+}
+
+.override-counters {
+  display: flex;
+  gap: 30px;
+}
+
+#override-counter-1,
+#override-counter-2 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+}
+
+.count1,
+.count2 {
+  font-size: 2em;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC OVERTOE</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>TIC TAC OVERTOE</h1>
+    <p>
+      This is a Tic Tac Toe variant. You may override your opponent's square
+      three times. You may also skip your turn by using an override on your own
+      square.
+    </p>
+
+    <div id="gameboard"></div>
+    <div class="input-butts">
+      <input type="text" id="player1" placeholder="Player One (X)" />
+      <input type="text" id="player2" placeholder="Player Two (O)" />
+      <button id="start-button">Start</button>
+      <button id="restart-button">Restart</button>
+    </div>
+    <div class="override-counters">
+      <div id="override-counter-1"></div>
+      <div id="override-counter-2"></div>
+    </div>
+
+    <div id="message"></div>
+  </body>
+</html>
